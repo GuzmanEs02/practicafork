@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Fotografía</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            left: 20px;
+            top: 10px;
+            max-height: 60px;
+            cursor: pointer;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            max-width: 300px;
+            border: 5px solid white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .contact {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .contact h2 {
+            margin-bottom: 20px;
+        }
+        .contact a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .contact a:hover {
+            color: #007bff;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="path/to/large/logo.jpg" data-lightbox="logo" data-title="Logo">
+        <img src="path/to/logo.jpg" alt="Logo">
+    </a>
+    <h1>OM MEMORIES</h1>
+</header>
+
+<nav>
+    <a href="#gallery">Panel de muestras</a>
+    <br>
+    <a href="#gallery">Wedding Dreams</a>
+</nav>
+
+<section class="gallery" id="gallery">
+    <a href="https://via.placeholder.com/800x600" data-lightbox="mygallery" data-title="Imagen 1">
+        <img src="https://via.placeholder.com/300x200" alt="Imagen 1">
+    </a>
+    <a href="https://via.placeholder.com/800x600" data-lightbox="mygallery" data-title="Imagen 2">
+        <img src="https://via.placeholder.com/300x200" alt="Imagen 2">
+    </a>
+    <a href="https://via.placeholder.com/800x600" data-lightbox="mygallery" data-title="Imagen 3">
+        <img src="https://via.placeholder.com/300x200" alt="Imagen 3">
+    </a>
+    <a href="https://via.placeholder.com/800x600" data-lightbox="mygallery" data-title="Imagen 4">
+        <img src="https://via.placeholder.com/300x200" alt="Imagen 4">
+    </a>
+    <!-- Puedes añadir más imágenes aquí -->
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contacto</h2>
+    <a href="tel:+527777923834"><i class="fas fa-phone"></i></a>
+    <a href="https://www.facebook.com/OmarGuzman" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/o.m_memories" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://wa.me/527771537333" target="_blank"><i class="fab fa-whatsapp"></i></a>
+</section>
+
+<footer>
+    <p>&copy; 2024 OM MEMORIES. Todos los derechos reservados.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>
+
